@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DB" Class="PatientInformationDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\v11.0;AttachDbFilename=|DataDirectory|\DB.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="UserHospital.Properties.Settings" SettingsPropertyName="DBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PatientData" Member="PatientDatas">
+    <Type Name="PatientData">
+      <Column Name="Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PregDate" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Pname" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Pgender" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Poccupation" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Pdob" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Page" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PbloodGroup" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PmaritialStatus" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Paddress" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Pcity" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Pcountry" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PcontactNo" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Pdepartment" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PconsultantName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
